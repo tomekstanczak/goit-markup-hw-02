@@ -33,16 +33,13 @@ body {
 /* end variable */
 
 /* selectors */
-.visually-hidden {
-}
-
 /* header */
 /* logo */
 .logo {
   font-family: var(--font-logo);
   font-weight: 800;
-  font-size: 18px;
-  letter-spacing: 0.03em;
+  font-size: var(--logo-size);
+  letter-spacing: var(--logo-letter-spacing);
   line-height: 1.17;
   text-transform: uppercase;
   color: var(--iris-color);
@@ -58,14 +55,14 @@ body {
   list-style: none;
 }
 .subpage {
-  font-size: 16px;
+  font-size: var(--button-size);
   line-height: var(--line-height-main);
   font-weight: 500;
   letter-spacing: var(--body-letter-spacing);
 }
 .contacts {
   color: var(--slate-color);
-  font-size: 16px;
+  font-size: var(--button-size);
   line-height: var(--line-height-main);
   font-style: normal;
   text-decoration: none;
@@ -92,13 +89,13 @@ body {
 }
 .text {
   color: var(--slate-color);
-  font-size: 16px;
+  font-size: var(--button-size);
   line-height: var(--line-height-main);
   letter-spacing: var(--body-letter-spacing);
 }
 .title-two {
   font-size: 36px;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--body-letter-spacing);
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
@@ -154,7 +151,7 @@ body {
 
 .footer-style {
   color: var(--cloud-color);
-  font-size: 16px;
+  font-size: var(--button-size);
   line-height: var(--line-height-main);
   letter-spacing: var(--body-letter-spacing);
 }
